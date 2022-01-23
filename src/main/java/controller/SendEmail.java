@@ -46,8 +46,8 @@ public class SendEmail extends HttpServlet {
 		 if(count==0) code=(int)Math.floor(Math.random()*(400000)+200000);
 	
 		 if(request.getParameter("op")==null) {
-		String nom = "smyejfatiii@gmail.com";
-		String password = "73321Mma";
+		String nom = "";
+		String password = "";
 		email = request.getParameter("email");
 		System.out.println(email);
 		Properties props = new Properties();
