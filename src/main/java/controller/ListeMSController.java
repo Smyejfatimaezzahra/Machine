@@ -31,6 +31,7 @@ public class ListeMSController extends HttpServlet{
                 String bothList="["+json.toJson(salles)+","+json.toJson(machines)+"]";
                 response.getWriter().write(bothList);
             }
+		//test
         	
          
         } else  {
