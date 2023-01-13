@@ -103,6 +103,9 @@ public class SalleService implements IDao<Salle> {
 	        }
 	        return null;
 	}
+	
+	
+// TEST
 
 	@Override
 	public List<Salle> findAll() {
