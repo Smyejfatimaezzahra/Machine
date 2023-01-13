@@ -8,6 +8,6 @@ public class Test {
 		for(Machine m : ms.findAll()) {
 			System.out.println(m.getReference());
 		}
-		//
+		//test
 	}
 }
